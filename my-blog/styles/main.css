@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
@@ -94,15 +98,3 @@ img.next-image {
   color: #69778c;
 }
 
-button {
-  color: black;
-  background-color: pink;
-  border-radius: 15px;
-  width: 100px;
-}
-
-button :hover {
-  background-color: aqua;
-  border-radius: 15px;
-  width: 100px;
-}
